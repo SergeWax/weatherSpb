@@ -1,5 +1,7 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -13,7 +15,17 @@ public class Parser {
         return newDoc;
     }
     public static void main(String[] args) throws IOException {
-        System.out.println(spbPage());
-    }
+        Document page = spbPage();
+        //css query language
+        Element tableWth = page.select("table[class=wt]").first();
+        Elements names = tableWth.select("tr[class=wth]");
+        Elements values = tableWth.select("tr[valign=top]");
 
+        for (Element name : names) {
+            String date = name.select("th[id=dt]").text();
+            System.out.println(date);
+            //Регулярные выражения необходимы для того что бы выбрать из строки необходимую часть текста
+
+        }
+    }
 }
