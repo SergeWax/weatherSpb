@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e65efc-d829-4be3-823e-35cd69fd34df" name="Changes" comment="second commit. search elements">
+    <list default="true" id="c5e65efc-d829-4be3-823e-35cd69fd34df" name="Changes" comment="third commit. print date and weather">
       <change beforePath="$PROJECT_DIR$/../WaxSpringBot" beforeDir="false" afterPath="$PROJECT_DIR$/../WaxSpringBot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Parser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit. search elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit. search elements" />
+    <MESSAGE value="third commit. print date and weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit. print date and weather" />
   </component>
 </project>
